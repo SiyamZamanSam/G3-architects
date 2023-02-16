@@ -307,3 +307,13 @@ input{
   color: white;
   cursor: pointer;
 }
+/* footer  */
+.footer-info{
+    margin-top:130px;
+    background-color:#fff4e7;
+    font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #424242;
+padding:39px 410px;
+}
