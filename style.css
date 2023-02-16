@@ -24,7 +24,8 @@
 .List-of-Features,
 .Feature-you-will-love-info,
 .Feature-info,
-.Feature-btn-part {
+.Feature-btn-part,
+.Some-facts {
   padding: 0 50px;
 }
 /* Navbar */
@@ -166,8 +167,53 @@
   text-align: center;
   width: 242px;
   cursor: pointer;
+  margin-bottom: 130px;
 }
 .btn-Title {
   font-weight: 700;
   font-size: 45px;
+}
+.btn-Subtitle {
+  font-weight: 500;
+  font-size: 25px;
+}
+/* Some Facts Section  */
+.Facts-info {
+  margin-bottom: 100px;
+}
+.Facts-Tite {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.Facts-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.facts {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:180px;
+}
+.fact {
+  text-align: center;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 35px 45px;
+}
+.fact img {
+  margin-bottom: 10px;
+}
+.fact-Title {
+  font-weight: 600;
+  font-size: 35px;
+  color: #424242;
+  margin-bottom: 5px;
+}
+.fact-Subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
 }
