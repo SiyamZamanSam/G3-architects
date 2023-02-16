@@ -16,11 +16,15 @@
   font-size: 20px;
   text-align: center;
   color: white;
+  cursor: pointer;
 }
 
 .navbar-container,
 .banner-Container,
-.List-of-Features {
+.List-of-Features,
+.Feature-you-will-love-info,
+.Feature-info,
+.Feature-btn-part {
   padding: 0 50px;
 }
 /* Navbar */
@@ -75,18 +79,19 @@
 }
 .Banner-img {
   padding-bottom: 45px;
+  width: 100%;
 }
 /* Quick list of Our Features */
 .List-of-Features {
   display: flex;
   margin-top: 85px;
   align-items: center;
-  margin-bottom:130px;
+  margin-bottom: 130px;
 }
 .Images {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap:24px;
+  gap: 24px;
   margin-right: 73px;
 }
 .Images img {
@@ -109,5 +114,60 @@
   font-weight: 400;
   font-size: 16px;
   color: #727272;
-  margin-bottom:32px;
+  margin-bottom: 32px;
+}
+/* Features you will love & enjoy */
+.Feature-info-and-img {
+  display: flex;
+  align-items: center;
+}
+.Feature-you-will-love-info {
+  border-left: 8px solid #ff900e;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.feature-you-will-love-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.Feature-you-will-love-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.Features {
+  width: 586px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.Feature-Title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+.Feature-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+/* Features you will love & enjoy btn */
+.Feature-btn-part {
+  padding: 6px 6px;
+  margin-top: 20px;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  width: 242px;
+  cursor: pointer;
+}
+.btn-Title {
+  font-weight: 700;
+  font-size: 45px;
 }
