@@ -6,21 +6,22 @@
   font-family: "Work Sans", sans-serif;
 }
 /* Common stuffs */
-.primary-btn{
-padding:20px 25px;
-margin-bottom:50px;
-border:none;
-border-radius:8px;
-background-color:#FF900E;
-font-weight: 600;
-font-size: 20px;
-text-align: center;
-color:white;
+.primary-btn {
+  padding: 20px 25px;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff900e;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: white;
 }
 
 .navbar-container,
-.banner-Container {
-  margin: 0 50px;
+.banner-Container,
+.List-of-Features {
+  padding: 0 50px;
 }
 /* Navbar */
 
@@ -70,8 +71,43 @@ color:white;
   font-weight: 400;
   font-size: 16px;
   color: #727272;
-  margin-bottom:32px;
+  margin-bottom: 32px;
 }
-.Banner-img{
-    padding-bottom:45px;
+.Banner-img {
+  padding-bottom: 45px;
+}
+/* Quick list of Our Features */
+.List-of-Features {
+  display: flex;
+  margin-top: 85px;
+  align-items: center;
+  margin-bottom:130px;
+}
+.Images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:24px;
+  margin-right: 73px;
+}
+.Images img {
+  height: 342px;
+  left: 301px;
+}
+.Feature-list-Title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+#Span01 {
+  font-weight: 500;
+  color: #727272;
+}
+#Span02 {
+  color: #ff900e;
+}
+.Feature-list-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom:32px;
 }
