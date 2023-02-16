@@ -317,3 +317,133 @@ text-align: center;
 color: #424242;
 padding:39px 410px;
 }
+.Only-4-phone{
+    visibility: hidden;
+}
+@media screen and (max-width:500px) {
+    /* For making responsive easily */
+    .hide{
+        display:none;
+    }
+    /* header  */
+    .header{
+        height:70vh;
+    }
+    /* navbar  */
+    .navber{
+        flex-direction: column;
+        width:100%;
+        padding-top:20px;
+        margin-bottom:50px;
+    }
+    .Website-name{
+        text-align: center;
+        font-size:24px;
+        margin-bottom:20px;
+    }
+    .nav-lists{
+        text-align: center;
+        /* flex-direction: column; */
+    }.nav-list{
+        /* margin-bottom:10px; */
+        font-size:20px;
+    }
+    /* banner  */
+    .Banner-Title{
+        font-size:30px;
+    }
+    .Baner-description{
+        font-size:12px;
+        text-align: justify;
+    }
+    .Banner-img img{
+        width:100%;
+        border-radius:10px;
+    }
+    /* Quick list of Our Features */
+    .List-of-Features{
+        flex-direction: column;
+    }
+    .Images{
+        grid-template-columns:none;
+        margin:0;
+    }
+    /* Features you will love & enjoy */
+    /* Feature text part */
+    .feature-you-will-love-title{
+        font-size:35px;
+    }
+    .Feature-info-and-img{
+        flex-direction: column;
+    }
+    .Feature-img-part img{
+        width:100%;
+        margin-bottom:20px;
+    }
+    .Feature-you-will-love-info {
+        margin:0;
+        padding:0 10px;
+        width:calc(100%-8px);
+        text-align: justify;
+    }
+    .feature-you-will-love-title{
+        font-size:20px;
+        margin-bottom:8px;
+        width:50%;
+    }
+    .Feature-info{
+        padding:0 10px;
+    }
+    .Features{
+        width:330px;
+    }
+    .Feature-btn-part{
+        margin:0 auto;
+    }
+    /* Some-facts */
+    .Some-facts{
+        margin-top:20px;
+        text-align: center;
+    }
+    .Facts-info{
+        margin-bottom:50px;
+    }
+    .facts{
+        flex-direction: column;
+        margin-bottom:10px;
+    }
+    .fact{
+        margin-bottom:30px;
+    }
+    /* sponsors */
+    .sponsors{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:0px;
+    }
+    .sponsor{
+        margin-bottom:100px;
+    }
+    /* bounes part  */
+    .User-info{
+        width:100%;
+        padding:0;
+    }
+    .bonus-section-title{
+        padding-top:20px;
+    }
+    .submit-btn{
+        margin-bottom:30px;
+    }
+    .footer-info{
+        margin-top:0;
+        padding:10px 0;
+        /* margin-bottom:20px; */
+    }
+    .Only-4-phone{
+        visibility:visible;
+        width:95%;
+        margin:0 auto;
+        border:1.5px solid black;
+    }
+}
