@@ -21,6 +21,9 @@
 .primary-btn:hover{
     background-color: #ffe30e;
 }
+.submit-btn:hover{
+    background-color: #ffe30e;
+}
 .navbar-container,
 .banner-Container,
 .List-of-Features,
@@ -281,9 +284,6 @@
     width:800px;
     margin:0 auto;
 }
-form{
-    /* margin-bottom:40px; */
-}
 input{
     display: block;
     margin-bottom:20px;
@@ -438,7 +438,6 @@ padding:39px 410px;
     .footer-info{
         margin-top:0;
         padding:10px 0;
-        /* margin-bottom:20px; */
     }
     .Only-4-phone{
         visibility:visible;
@@ -447,3 +446,4 @@ padding:39px 410px;
         border:1.5px solid black;
     }
 }
+/* I have change the navbar on my own choose,because i choose to do it ,but if you want you can un comment the code and the navbar list will turn into colums */
