@@ -1,0 +1,44 @@
+/* Font Link  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Navbar */
+
+.header{
+    background-color:#FFF4E7;
+    width: 100%;
+    height:100%;
+}
+.navbar-container {
+  margin: 0 50px;
+}
+.navber {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin-bottom:104px;
+  width: 1440px;
+  height: 40px;
+  /* border:1px solid red; */
+}
+.Website-name {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.nav-lists {
+  display: flex;
+  list-style: none;
+}
+.nav-lists li {
+  margin-right: 70px;
+}
+.nav-list {
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
